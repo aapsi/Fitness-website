@@ -2,6 +2,7 @@ import Navbar from "@/scenes/navbar";
 //if you directly reference a folder with index.tsx you dont have to write 
 // it in the path
 import Home from "@/scenes/home"; 
+import Benefits from "@/scenes/benefits";
 import { useEffect, useState } from "react";
 import { SelectedPage } from "@/shared/types";
 
@@ -38,6 +39,7 @@ function App() {
       />
       {/* we need to pass setSelectedPage as we want to navigate to home page */}
       <Home setSelectedPage = {setSelectedPage}/>
+      <Benefits setSelectedPage={setSelectedPage}/>
       </div>
   );  
 }
