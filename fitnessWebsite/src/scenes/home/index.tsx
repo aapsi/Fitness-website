@@ -20,11 +20,11 @@ const Home = ({ setSelectedPage }: Props) => {
     return (
         <section
         id='home'
-        className='gap-16 bg-gray-20 py-10 md:h-full md:pb-0'
+        className="gap-16 bg-gray-20 py-10 md:h-full md:pb-0"
         >
             {/* image and main header */}
             <motion.div 
-            className='md:flex mx-auto w-5/6 items-center justify-center md:h-5/6'
+            className='md:flex mx-auto w-5/6 items-center justify-center md:h-5/6 mt-12'
             onViewportEnter={() => setSelectedPage(SelectedPage.Home)}
             // this will help to switch back the highlight on home page 
             // back after scrolling back up and reaching the top

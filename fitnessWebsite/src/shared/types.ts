@@ -9,8 +9,16 @@ export enum SelectedPage {
     ContactUs = "contactus",
   }
 
-  export interface BenefitType {
+export interface BenefitType {
     icon: JSX.Element;
     title: string;
     description: string;
   }
+
+export interface ClassType {
+  name: string;
+  description?: string;
+  // adding a question mark makes it optional, so when we dont have a
+  // description it still works
+  image: string;
+}

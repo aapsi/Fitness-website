@@ -49,7 +49,7 @@ const Benefits = ({setSelectedPage}: Props) => {
     <section
         id='benefits'
         // using id here so that anchor link scrolls smoothly
-        className='mx-auto min-h-full w-5/6 py-20'
+        className='mx-auto min-h-full w-5/6 py-20 mt-12'
     >
         <motion.div
             onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
@@ -99,7 +99,7 @@ const Benefits = ({setSelectedPage}: Props) => {
             </motion.div>
 
             {/* GRAPHICS AND DESCRIPTION */}
-            <div className='mt-16 item-center justify-between gap-20 md:mt-28 md:flex'>
+            <div className="mt-16 items-center justify-between gap-20 md:mt-28 md:flex">
                 {/* GRAPHIC */}
                 <img 
                     className='mx-auto'
