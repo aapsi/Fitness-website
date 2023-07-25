@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 /react-slick
+/react-hook-form
 
 # Editor directories and files
 .vscode/*
