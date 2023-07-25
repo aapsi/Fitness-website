@@ -11,8 +11,8 @@ lerna-debug.log*
 dist
 dist-ssr
 *.local
-/react-slick
-/react-hook-form
+/node_modules/react-slick
+/node_modules/react-hook-form/
 
 # Editor directories and files
 .vscode/*
