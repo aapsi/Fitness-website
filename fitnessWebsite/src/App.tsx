@@ -5,6 +5,7 @@ import Home from "@/scenes/home";
 import Benefits from "@/scenes/benefits";
 import { useEffect, useState } from "react";
 import { SelectedPage } from "@/shared/types";
+import OurClasses from "@/scenes/ourClasses";
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
       {/* we need to pass setSelectedPage as we want to navigate to home page */}
       <Home setSelectedPage = {setSelectedPage}/>
       <Benefits setSelectedPage={setSelectedPage}/>
+      <OurClasses setSelectedPage={setSelectedPage} />
       </div>
   );  
 }
