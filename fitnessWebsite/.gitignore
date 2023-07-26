@@ -8,11 +8,12 @@ pnpm-debug.log*
 lerna-debug.log*
 
 /node_modules
-dist
-dist-ssr
+/dist
+/dist-ssr
 *.local
 /node_modules/react-slick
-/node_modules/react-hook-form/
+/node_modules/react-hook-form
+/react-slick
 
 # Editor directories and files
 .vscode/*

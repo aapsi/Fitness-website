@@ -73,7 +73,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                         //we only want the animation to happen once so we set once : true
                         // amount: 0.5 means we will have to see 50% of div for the animation to trigger
                         viewport={{ once: true, amount: 0.5}}
-                        transition={{ delay: 0.3, duration: 0.7}}
+                        transition={{ delay: 0.1, duration: 0.7}}
                         variants={{
                             hidden: { opacity: 0, y:50},
                             visible: {opacity: 1, y: 0}}}
